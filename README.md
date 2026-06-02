@@ -8,7 +8,6 @@ The system works in two stages:
 2. A **consumer/stream processor** reads those news messages from Kafka, performs **Named Entity Recognition (NER)** using spaCy, counts the extracted entities, and publishes the results to another Kafka topic.
 
 ---
-
 ## Project Overview
 
 This project demonstrates:
